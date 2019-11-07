@@ -1,0 +1,24 @@
+.navbar{
+    justify-content: space-between
+}
+a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff
+}
+.container{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+.container .left , .container .right{
+    width: 75%;
+}
+.container .main {
+    width: 150%;
+    padding: 0 10px;
+}
+

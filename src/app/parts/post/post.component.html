@@ -1,0 +1,21 @@
+<mat-card class="example-card" >
+<mat-card-header>
+  <div mat-card-avatar class="example-header-image"></div>
+  <mat-card-title>{{post.name}}</mat-card-title>
+  <mat-card-subtitle>@{{post.username}}</mat-card-subtitle>
+</mat-card-header>
+<img mat-card-image *ngIf="post.imgUrl" [src]="post.imgUrl" alt="Image">
+<video *ngIf="post.videoUrl" src="post.videoUrl"></video>
+<mat-card-content>
+  <p>
+   {{post.body}}
+  </p>
+</mat-card-content>
+<mat-card-actions>
+  <button mat-button (click)="onlike()">
+    {{like? "dislike" : "like"}}
+    <span *ngIf="postLikes > 0" >( {{postLikes}} )</span>
+  </button>
+  <button mat-button>SHARE</button>
+</mat-card-actions>
+</mat-card>

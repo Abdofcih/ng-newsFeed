@@ -1,0 +1,28 @@
+
+<form class="example-form" [formGroup]="form" (submit)="sharePost()">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="What do you think" formControlName="postFormControl" >
+    <mat-error *ngIf="postFormControl.touched && postFormControl.invalid">
+      Post is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <button mat-raised-button color="primary">Share</button>
+</form>
+
+
+<app-post *ngFor='let post of posts' [post]="post"></app-post>
+
+
+<!-- <mat-card *ngFor='let post of posts'>
+  <mat-card-title>
+    <span>{{post.title}}</span>
+  </mat-card-title>
+  <mat-card-content>
+    {{post.body}}
+  </mat-card-content>
+  <mat-card-actions>
+      <button mat-icon-button aria-label="Example icon-button with a heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+    </mat-card-actions>
+</mat-card> -->

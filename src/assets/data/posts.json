@@ -1,0 +1,30 @@
+[
+    {
+      "name":"Abdelrahman",
+      "username": "abdo98",
+      "id": 1,
+      "body": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "imgUrl":"https://images.pexels.com/photos/2674064/pexels-photo-2674064.jpeg?auto=compress&cs=tinysrgb&h=200&w=450",
+      "videoUrl":"",
+      "likes": 25
+     },
+     {
+      "name":"Ahmed",
+        "username": "medo",
+        "id": 2,
+        "body": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "imgUrl":"",
+        "videoUrl":"",
+        "likes": 11
+       },
+       {
+        "name":"Mohamed",
+        "username": "m85",
+        "id": 3,
+        "body": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "imgUrl":"https://images.pexels.com/photos/2674064/pexels-photo-2674064.jpeg?auto=compress&cs=tinysrgb&h=200&w=450",
+        "videoUrl":"",
+        "likes": 7
+       }
+       
+]
